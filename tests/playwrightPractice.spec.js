@@ -9,7 +9,7 @@ test('Youtube Search', async ({ page }) => {
 
    await searchBox.click();
 
-   await searchBox.fill('Cydeo-Search');
+   await searchBox.fill('Cydeo');
 
 
    await searchBox.press("Enter");
